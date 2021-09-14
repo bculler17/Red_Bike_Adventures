@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <base href="https://www.bethculler.com/">
+    <meta name="author" content="Beth Culler">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Red Bike Adventures, Bike Sharing, Little Red Rock Trail, Bike Rental">
+    <meta name="description" content="System Map">
+    <title> Red Bike Adventures </title>
+    <link rel="stylesheet" type="text/css" href="C:\Users\MOAO\Desktop\bethculler_webfiles\RBA\css\RBAhomepage.css">
+    <link rel="stylesheet" type="text/css" href="C:\Users\MOAO\Desktop\bethculler_webfiles\RBA\css\RBAlwasht.css">
+    <link rel="stylesheet" type="text/css" href="C:\Users\MOAO\Desktop\bethculler_webfiles\RBA\css\RBAlrrt.css">
+    <link rel="stylesheet" type="text/css" href="C:\Users\MOAO\Desktop\bethculler_webfiles\RBA\css\RBAaboutus.css">
+    <link rel="stylesheet" type="text/css" href="C:\Users\MOAO\Desktop\bethculler_webfiles\RBA\css\RBAlocations.css">
+    <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
+    <meta name='viewport' content='width=device-width, initial-scale=1' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v2.4.1/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v2.4.1/mapbox-gl.css' rel='stylesheet' />
+  </head>
+  <body>
+    <script src="C:\Users\MOAO\Desktop\bethculler_webfiles\RBA\js\rba_javascript.js"></script>
+    <div class="loader">
+      <div class="loadingio-spinner-gear-qjeonae0u7a"><div class="ldio-llafj55vlfb">
+<div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+</div></div>
+    </div>
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+      <div class="rba_banner">
+        <div>
+          <img class="rba_logo" src="C:\Users\MOAO\Desktop\bethculler_webfiles\RBA\images\RBALogo2.png" alt="Red Bike Adventures Logo image">
+        </div>
+      </div>
+      <!-- Navigation links (hidden by default) -->
+      <div id="myLinks">
+        <a href="file:///C:/Users/MOAO/Desktop/bethculler_webfiles/RBA/html/RBAhomepage.html" style="color: #3e88a4">Homepage</a>
+        <a href="file:///C:/Users/MOAO/Desktop/bethculler_webfiles/RBA/html/RBAaboutus.html" style="color: #3e88a4">About Us</a>
+        <a href="file:///C:/Users/MOAO/Desktop/bethculler_webfiles/RBA/html/RBAhomepage.html#locate" style="color: #3e88a4">Locations</a>
+        <a href="file:///C:/Users/MOAO/Desktop/bethculler_webfiles/RBA/html/RBAhomepage.html#popular" style="color: #3e88a4">Popular Rides</a>
+        <a href="file:///C:/Users/MOAO/Desktop/bethculler_webfiles/RBA/html/RBAhomepage.html#howitworks" style="color: #3e88a4">How It Works</a>
+        <a href="file:///C:/Users/MOAO/Desktop/bethculler_webfiles/RBA/html/RBAhomepage.html#pricing" style="color: #3e88a4">Pricing</a>
+        <a href="file:///C:/Users/MOAO/Desktop/bethculler_webfiles/RBA/html/RBAdashboard.html" style="color: #3e88a4">Bike Availability</a>
+      </div>
+      <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <div id='map'>
+      <script>
+        mapboxgl.accessToken = 'pk.eyJ1IjoiYmxhd3NvbjEwMTUiLCJhIjoiY2tzdG1sbzQ0MDJ1NDJ4cGxha3RnejE0ZSJ9.JuKUZ_YJLvqy2w-0bk2aFQ';
+        const map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/blawson1015/ckstnpbsp4cgv18o4kurd957e',
+        center: [-115.172813, 36.114647],
+        zoom: 10.7
+        });
+/*
+Add an event listener that runs
+  when a user clicks on the map element.
+*/
+        map.on('click', ({ point }) => {
+        // If the user clicked on one of your markers, get its information.
+        const features = map.queryRenderedFeatures(point, {
+        layers: ['nevada-parks-test']
+        });
+        if (!features.length) {
+        return;
+        }
+        const feature = features[0];
+/*
+Create a popup, specify its options
+  and properties, and add it to the map.
+*/
+        const popup = new mapboxgl.Popup({ offset: [0, -15] })
+        .setLngLat(feature.geometry.coordinates)
+        .setHTML(
+        `<h3>${feature.properties.title}</h3><p>${feature.properties.description}</p>`
+        )
+        .addTo(map);
+        });
+    </script>
+    </div>
+  </body>
+</html>
