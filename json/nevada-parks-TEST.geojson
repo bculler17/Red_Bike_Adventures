@@ -1,0 +1,148 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Lincoln Park",
+        "description": "Asphalt trail"
+      },
+      "geometry": {
+        "coordinates": [-117.224121, 39.876019],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Burnham Park",
+        "description": "Asphalt trail"
+      },
+      "geometry": {
+        "coordinates": [-114.603735, 39.7797],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Millennium Park",
+        "description": "Asphalt trail"
+      },
+      "geometry": {
+        "coordinates": [-115.622554, 39.862534],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Grant Park",
+        "description": "Dirt trail"
+      },
+      "geometry": {
+        "coordinates": [-118.619185, 39.320676],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Humboldt Park",
+        "description": "Dirt trail"
+      },
+      "geometry": {
+        "coordinates": [-119.732035,39.313433],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Douglas Park",
+        "description": "Asphalt trail"
+      },
+      "geometry": {
+        "coordinates": [-119.774412,39.328971],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Calumet Park",
+        "description": "Dirt trail"
+      },
+      "geometry": {
+        "coordinates": [-119.997477,40.671422],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Jackson Park",
+        "description": "Dirt trail"
+      },
+      "geometry": {
+        "coordinates": [-117.55044,38.941438],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Columbus Park",
+        "description": "Asphalt trail"
+      },
+      "geometry": {
+        "coordinates": [-117.502806,38.734839],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Desert Way Trail",
+        "description": "Dirt trail"
+      },
+      "geometry": {
+        "coordinates": [-117.540835,38.636441],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "GB Way Trail",
+        "description": "Asphalt trail"
+      },
+      "geometry": {
+        "coordinates": [-115.243518,36.011053],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Little Red Rock Trail",
+        "description": "Dirt trail"
+      },
+      "geometry": {
+        "coordinates": [-115.3917217, 36.200997],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Lower Las Vegas Wash Trail",
+        "description": "Asphalt trail"
+      },
+      "geometry": {
+        "coordinates": [-115.15245, 36.24464],
+        "type": "Point"
+      }
+    }
+  ],
+  "type": "FeatureCollection"
+}
