@@ -9,7 +9,8 @@ are able to enjoy cycling the Little Red Rock Trail by renting a bike from the R
 located at the trailhead. Due to its popularity, many non-local visitors would like to try to plan their trip to 
 the area during a time they can be more guaranteed a bike to rent, so many call inquiring about what times those 
 may be. Due to the many factors that contribute to bike availability (temperature, time of year, local events, etc.), 
-it is very difficult to provide customers with a reliable answer. This uncertainty may deter customers from visiting. 
+it is very difficult to provide customers with a reliable answer. Currently their only option is to drive out to the rural 
+area and hope a bike is still available to rent. This uncertainty may deter customers from visiting.
 Red Bike Adventures is a tourism-dependent company and thus needs to encourage as many visitors as possible.
 
 In resolving this, the solution will provide customers with useful information regarding historical trends
