@@ -6,7 +6,7 @@ California Irvine’s Machine Learning Repository which consists of a two-year h
 corresponding to the years 2011 and 2012 from Capital Bikeshare system, Washington D.C. The description of this dataset was changed to fit the narrative that was made up for
 this project. The public dataset can be found below:
 
-https://www.archive-beta.ics.uci.edu/ml/datasets/275
+https://archive-beta.ics.uci.edu/ml/datasets/275
 
 Use of this dataset in publications is required to be cited to the following publication:
 
