@@ -2,7 +2,7 @@
   max-width: 100%;
   height: 420px;
   margin: auto;
-  background-image: url('file:///C:/Users/MOAO/Desktop/bethculler_webfiles/RBA/images/lrrt-pan.jpg');
+  background-image: url('./lrrt-pan.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   font-size: 75px;
