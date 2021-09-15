@@ -5,13 +5,12 @@ The goal of this project is to solve the following business need:
 
 The Little Red Rock Trail is one of the most visited biking trails in Nevada, with roughly one million
 visitors each year, due to its fun ride and amazing views of the valley in Red Rock Canyon. Most visitors
-are able to enjoy cycling through the Little Red Rock Trail by renting a bike from the Red Bike
-Adventures bike station located at the trailhead. Due to its popularity, many non-local visitors would
-like to try to plan their trip to the area during a time they can be more guaranteed a bike to rent, so
-many call inquiring about what times those may be. Due to the many factors that contribute to bike
-availability (temperature, time of year, local events, etc.), it is very difficult to provide customers with
-a reliable answer. This uncertainty may deter customers from visiting. Red Bike Adventures is a
-tourism-dependent company and thus needs to encourage as many visitors as possible.
+are able to enjoy cycling the Little Red Rock Trail by renting a bike from the Red Bike Adventures bike station 
+located at the trailhead. Due to its popularity, many non-local visitors would like to try to plan their trip to 
+the area during a time they can be more guaranteed a bike to rent, so many call inquiring about what times those 
+may be. Due to the many factors that contribute to bike availability (temperature, time of year, local events, etc.), 
+it is very difficult to provide customers with a reliable answer. This uncertainty may deter customers from visiting. 
+Red Bike Adventures is a tourism-dependent company and thus needs to encourage as many visitors as possible.
 
 In resolving this, the solution will provide customers with useful information regarding historical trends
 and future predictions of bike availability to reduce uncertainty and therefore encourage tourism to
