@@ -1,6 +1,6 @@
 #top-bg {
   max-width: 100%;
-  height: auto;
+  height: 200px;
   margin: auto;
   background-image: url("/ts.jpg");
   background-size: contain;
