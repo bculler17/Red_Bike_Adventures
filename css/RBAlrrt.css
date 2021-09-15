@@ -3,7 +3,7 @@
   height: 420px;
   margin: auto;
   background-image: url("/ts.jpg");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   font-size: 75px;
   color: white;
