@@ -54,7 +54,7 @@
   right: 0px;
   bottom: 0px;
   left: 0px;
-  background-image: url('./images/dd.jpg');
+  background-image: url("/images/dd.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 0.5;
