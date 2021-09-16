@@ -19,6 +19,14 @@
   object-fit:cover;
 }
 
+#pic2{
+ max-width: 100%
+ height: auto;
+ background-image: url("/images/aboutus1.jpg");
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+
 .abu {
   text-align: justify;
   padding: 7%;
