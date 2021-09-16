@@ -27,6 +27,22 @@
  background-repeat: no-repeat;
 }
 
+#pic3{
+ max-width: 100%
+ height: auto;
+ background-image: url("/images/aboutus2.jpg");
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+
+#pic4{
+ max-width: 100%
+ height: auto;
+ background-image: url("/images/aboutus3.jpg");
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+
 .abu {
   text-align: justify;
   padding: 7%;
