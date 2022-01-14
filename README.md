@@ -1,4 +1,6 @@
-#Red Bike Adventures
+# Red Bike Adventures
+Predicting Bike Availability Using The Linear Regression Machine Learning Algorithm
+
 
 This project was submitted as my undergraduate computer science capstone project. Red Bike Adventures is a fictional company created by me for the purposes of this project. To visit the website created here, please go to: https://beth-culler.vercel.app/
 
