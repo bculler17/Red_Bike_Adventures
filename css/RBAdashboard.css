@@ -3,8 +3,8 @@
   height: 9.77vw;
   background: #ff0000;
   margin: auto;
-  border: 5px solid black;
-  border-radius:0.2vw;
+ border: 0.5px solid black;
+  border-radius:3px;
   position: relative;
   box-shadow: 2px 2px 5px grey;
 }
