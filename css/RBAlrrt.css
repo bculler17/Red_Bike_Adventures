@@ -1,12 +1,12 @@
 #top-bg {
   max-width: 100%;
-  height: 300px;
+  height: 19.5vw;
   margin: auto;
   background-image: url("/ts.jpg");
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
-  font-size: 55px;
+  font-size: 3.6vw;
   color: white;
   position: relative;
 }
@@ -15,15 +15,15 @@
   background-color: #ffffff;
   display: flex;
   max-width: 80%;
-  height: 750px;
+  height: 48.8vw;
   margin: 0 auto;
   padding-top: 4%;
   padding-bottom: 2%;
-  font-size: 27px;
+  font-size: 1.8vw;
 }
 
 .container-r > div {
-  padding: 10px;
+  padding: 0.65vw;
   padding-bottom: 2%;
   max-width: 50%;
   height: auto;
@@ -32,7 +32,7 @@
 
 #pic-r {
   position: absolute;
-  bottom: 7px;
+  bottom: 0.46vw;
   right: 4%;
 }
 
@@ -52,7 +52,7 @@
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(8, 5vw);
-  grid-gap: 20px;
+  grid-gap: 1.3vw;
 }
 
 .gallery__img {
