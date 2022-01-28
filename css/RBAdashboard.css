@@ -69,7 +69,7 @@
 
 .mldb {
   width: 49%;
-  height: 33vw;
+  height: 100vw;
   position: relative;
   padding:3%;
   background: #d9e7e2;
@@ -80,7 +80,7 @@
 
 .mldb2 {
   width: 100%;
-  height: 33vw;
+  height: 100vw;
   padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
   position: relative;
   overflow: hidden;
