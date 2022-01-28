@@ -15,35 +15,35 @@
 
 .pic-w {
   max-width: 100%;
-  height: 480px;
+  height: 31.25vw;
   object-fit:contain;
 }
 
 .pic-w2 {
   max-width: 100%;
-  height: 570px;
+  height: 37.11vw;
   object-fit:contain;
 }
 
 .pic-w3 {
   max-width: 100% ;
-  height: 415px;
+  height: 27vw;
   object-fit:contain;
 }
 
 #tv {
   position: relative;
-  width: 1020px;
-  height: 497px;
+  width: 66.4vw;
+  height: 32.4vw;
   background: white;
   border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
   color: white;
-  box-shadow: 20px 20px rgba(0,0,0,.15);
+  box-shadow: 1.3vw 1.3vw rgba(0,0,0,.15);
   transition: all .4s ease;
 }
 #tv:hover {
   border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
-  box-shadow: 10px 10px rgba(0,0,0,.25);
+  box-shadow: 0.65vw 0.65vw rgba(0,0,0,.25);
 }
 
 .container-w2 {
@@ -65,7 +65,7 @@
 .lwt {
   text-align: justify;
   width: 100%;
-  font-size: 24px;
+  font-size: 1.56vw;
 }
 
 .container-w3 {
