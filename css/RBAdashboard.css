@@ -1,17 +1,17 @@
 .square {
-  width: 150px;
-  height: 150px;
+  width: 9.77vw;
+  height: 9.77vw;
   background: #ff0000;
   margin: auto;
-  border: 0.5px solid black;
-  border-radius:3px;
+  border: 0.33vw solid black;
+  border-radius:0.2vw;
   position: relative;
-  box-shadow: 2px 2px 5px grey;
+  box-shadow: 0.13vw 0.13vw 0.33vw grey;
 }
 
 .ran {
   color: white;
-  font-size: 60px;
+  font-size: 3.9vw;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -32,7 +32,7 @@
   width: 75%;
   height: auto;
   text-align: justify;
-  font-size: 25px;
+  font-size: 1.63vw;
   margin: auto;
   position: relative;
 }
@@ -74,8 +74,8 @@
   padding:3%;
   background: #d9e7e2;
   margin-bottom: 3%;
-  border-radius:3px;
-  box-shadow: 2px 2px 5px grey;
+  border-radius:0.2vw;
+  box-shadow: 0.13vw 0.13vw 0.33vw grey;
 }
 
 .mldb2 {
