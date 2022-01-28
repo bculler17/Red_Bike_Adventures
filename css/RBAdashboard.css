@@ -3,10 +3,10 @@
   height: 9.77vw;
   background: #ff0000;
   margin: auto;
-  border: 0.33vw solid black;
+  border: 5px solid black;
   border-radius:0.2vw;
   position: relative;
-  box-shadow: 0.13vw 0.13vw 0.33vw grey;
+  box-shadow: 2px 2px 5px grey;
 }
 
 .ran {
